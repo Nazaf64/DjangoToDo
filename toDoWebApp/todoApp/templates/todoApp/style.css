@@ -1,0 +1,22 @@
+.main{
+    text-align: center;
+}
+
+button#add{
+    width: 100%;
+}
+
+li{
+    text-align: left;
+}
+
+li.list-group-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 550px){
+    .add-button{
+        width: 100%;
+    }
+}
