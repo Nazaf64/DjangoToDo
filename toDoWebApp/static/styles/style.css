@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.main{
+    text-align: center;
+}
+
+button#add{
+    width: 100%;
+}
+
+li{
+    text-align: left;
+}
+
+.list-group-item{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+
+/* span.task{
+    display: flex;
+    justify-content: flex-start;
+}
+
+span.list-button{
+    display: flex;
+    justify-content: flex-end;
+} */
+
+@media (max-width: 550px){
+    .add-button{
+        width: 100%;
+    }
+}
